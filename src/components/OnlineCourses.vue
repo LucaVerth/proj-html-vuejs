@@ -22,8 +22,8 @@
                   />
                 </a>
                 <div class="text">
-                  <span>${{ card.price }}</span>
-                  <h4 class="mt-3"></h4>
+                  <span>${{card.price.toFixed(2)}}</span>
+                  <h5 class="mt-3">{{card.title}}</h5>
                   <div class="extra-info mt-4">
                     <span class="me-3">
                       <i class="far fa-file-alt"></i>
@@ -83,8 +83,9 @@ export default {
   justify-content: space-between;
   .cards {
     width: 400px;
+    min-height: 450px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: #fff;
     .text {
       padding: 20px;
     }
