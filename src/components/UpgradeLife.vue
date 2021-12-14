@@ -60,6 +60,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+section{
+  margin-bottom: 100px;
+}
 .main-section {
   display: flex;
   margin-bottom: 60px;
