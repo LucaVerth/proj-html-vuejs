@@ -22,8 +22,8 @@
                   />
                 </a>
                 <div class="text">
-                  <span>${{card.price.toFixed(2)}}</span>
-                  <h5 class="mt-3">{{card.title}}</h5>
+                  <span>${{ card.price.toFixed(2) }}</span>
+                  <h5 class="mt-3">{{ card.title }}</h5>
                   <div class="extra-info mt-4">
                     <span class="me-3">
                       <i class="far fa-file-alt"></i>

@@ -1,0 +1,230 @@
+<template>
+  <section>
+    <div class="custom-shape-divider-top-1639503039">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 top-half">
+          <div class="text-side">
+            <div>
+              <span class="slogan text-uppercase">testimonials</span>
+              <h2 class="my-3">
+                Why Do People <span class="fw-light">*Hearts*</span> Us?
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                dolor tempore odit mollitia ducimus exercitationem illo
+                voluptates repudiandae, ea, explicabo cupiditate! Dolore,
+                officia corporis laudantium maiores impedit eum ipsa. Eligendi.
+              </p>
+              <span><a href="#">View all &#8594;</a> </span>
+            </div>
+          </div>
+          <div class="image-carousel">
+            <div class="cards">
+              <div class="main-card">
+                <div class="card-item item1">
+                  <div class="text">
+                    <h4 class="mb-3">
+                      Professional Team of specialists and passionate mentors at
+                      reach
+                    </h4>
+                    <div class="inner-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
+                        officia rem asperiores possimus similique ipsa. Illum
+                        exercitationem eaque dicta, quae soluta nulla culpa
+                        veniam?
+                      </p>
+                      <div class="profile mt-4">
+                        <img
+                          class="profile-image"
+                          src="../assets/images/testimonial-avata-01.jpg"
+                          alt=""
+                        />
+                        <div class="profile-info">
+                          <h6>Madley Pondor</h6>
+                          <span>/IT Specialist</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-item item2">
+                  <div class="text">
+                    <h4 class="mb-3">
+                      Professional Team of specialists and passionate mentors at
+                      reach
+                    </h4>
+                    <div class="inner-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
+                        officia rem asperiores possimus similique ipsa. Illum
+                        exercitationem eaque dicta, quae soluta nulla culpa
+                        veniam?
+                      </p>
+                      <div class="profile mt-4">
+                        <img
+                          class="profile-image"
+                          src="../assets/images/testimonial-avata-01.jpg"
+                          alt=""
+                        />
+                        <div class="profile-info">
+                          <h6>Madley Pondor</h6>
+                          <span>/IT Specialist</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-item item3">
+                  <div class="text">
+                    <h4 class="mb-3">
+                      Professional Team of specialists and passionate mentors at
+                      reach
+                    </h4>
+                    <div class="inner-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
+                        officia rem asperiores possimus similique ipsa. Illum
+                        exercitationem eaque dicta, quae soluta nulla culpa
+                        veniam?
+                      </p>
+                      <div class="profile mt-4">
+                        <img
+                          class="profile-image"
+                          src="../assets/images/testimonial-avata-01.jpg"
+                          alt=""
+                        />
+                        <div class="profile-info">
+                          <h6>Madley Pondor</h6>
+                          <span>/IT Specialist</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "People",
+};
+</script>
+
+<style lang="scss" scoped>
+section {
+  position: relative;
+  background-color: #ffff;
+  padding-top: 100px;
+
+  .custom-shape-divider-top-1639503039 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .custom-shape-divider-top-1639503039 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+  }
+  .custom-shape-divider-top-1639503039 .shape-fill {
+    fill: #e2e2e0;
+  }
+}
+.top-half {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  .text-side {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+    padding-right: 60px;
+    h2 {
+      font-size: 50px;
+    }
+  }
+  .image-carousel {
+    width: 60%;
+    position: relative;
+    //min-height: 650px;
+    .main-card {
+      margin: 150px 0;
+      width: 100%;
+      min-height: calc(650px / 2);
+      position: relative;
+      .card-item {
+        height: inherit;
+        position: relative;
+        background-color: #fff;
+        perspective: 1200px;
+        box-shadow: 2px 2px 8px;
+        .text {
+          padding: 40px;
+          position: relative;
+        }
+      }
+      // carousel cards items
+      .item1{
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translateY(0%) translateZ(0px) rotateX(0deg) scale(1) perspective(1px);
+        z-index: 1;
+        backface-visibility: hidden;
+      }
+      .item2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(50%) translateZ(-50px) rotateX(0deg) scale(0.8) perspective(1px);
+        opacity: 0.6;
+      }
+      .item3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%) translateZ(-50px) rotateX(0deg) scale(0.8) perspective(1px);
+        opacity: 0.6;
+      }
+      .profile {
+        display: flex;
+        align-items: center;
+        .profile-image {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+</style>
