@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fontsource/allerta": "^4.5.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"

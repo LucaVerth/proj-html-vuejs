@@ -1,29 +1,36 @@
 <template>
   <div id="app">
     <div class="main-wrapper">
-      
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   </div>
 </template>
 
 <script>
-
+import Header from './components/Header.vue';
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    
+    Header,
+    Main,
+    Footer
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './assets/style/Generals.scss';
 
 .main-wrapper{
   width: 100%;
+  min-width: 1750px;
   height: 100vh;
-  background-color: red;
+  overflow: hidden;
 }
 
 </style>

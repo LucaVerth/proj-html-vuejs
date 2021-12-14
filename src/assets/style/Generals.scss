@@ -1,7 +1,11 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~@fontsource/allerta/index.css';
-
+@import '~@fortawesome/fontawesome-free/css/all.css';
 
 body{
   font-family: "Allerta";
+}
+
+img {
+  max-width: 100%;
 }
