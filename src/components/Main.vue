@@ -4,6 +4,7 @@
       <Jumbotron/>
       <WorkCulture/>
       <UpgradeLife/>
+      <OnlineCourses/>
     </div>
   </main>
 </template>
@@ -12,6 +13,7 @@
 import Jumbotron from './Jumbotron.vue';
 import WorkCulture from './WorkCultureSection.vue';
 import UpgradeLife from './UpgradeLife.vue';
+import OnlineCourses from './OnlineCourses.vue';
 
 export default {
   name: 'Main',
@@ -19,6 +21,7 @@ export default {
     Jumbotron,
     WorkCulture,
     UpgradeLife,
+    OnlineCourses,
   }
 }
 </script>
