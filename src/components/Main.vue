@@ -7,6 +7,8 @@
       <OnlineCourses/>
       <People/>
       <Transform/>
+      <Blogs/>
+      <Subscribe/>
     </div>
   </main>
 </template>
@@ -18,6 +20,8 @@ import UpgradeLife from './UpgradeLife.vue';
 import OnlineCourses from './OnlineCourses.vue';
 import People from './People.vue';
 import Transform from './Transform.vue';
+import Blogs from './Blogs.vue';
+import Subscribe from './Subscribe.vue';
 
 export default {
   name: 'Main',
@@ -28,6 +32,8 @@ export default {
     OnlineCourses,
     People,
     Transform,
+    Blogs,
+    Subscribe,
   }
 }
 </script>
