@@ -29,8 +29,7 @@ export default {
 .main-wrapper{
   width: 100%;
   min-width: 1750px;
-  height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 </style>

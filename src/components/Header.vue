@@ -49,7 +49,7 @@ header {
   height: 80px;
   background-color: #fff;
   min-width: 1750px;
-  overflow: hidden;
+  overflow-x: hidden;
   .custom_container {
     width: 80%;
     margin: 0 auto;

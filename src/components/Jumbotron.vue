@@ -32,7 +32,7 @@ export default {
 .jumbotron {
   margin: unset;
   padding: unset;
-  max-height: 600px;
+  max-height: 700px;
   .jumbotron-image {
     position: relative;
     .jumbotron-center-section {
