@@ -79,12 +79,12 @@
                       <div class="profile mt-4">
                         <img
                           class="profile-image"
-                          src="../assets/images/testimonial-avata-01.jpg"
+                          src="../assets/images/testimonial-avata-02.jpg"
                           alt=""
                         />
                         <div class="profile-info">
-                          <h6>Madley Pondor</h6>
-                          <span>/IT Specialist</span>
+                          <h6>Mina Hollace</h6>
+                          <span>/Freelance</span>
                         </div>
                       </div>
                     </div>
@@ -107,12 +107,12 @@
                       <div class="profile mt-4">
                         <img
                           class="profile-image"
-                          src="../assets/images/testimonial-avata-01.jpg"
+                          src="../assets/images/testimonial-avata-03.jpg"
                           alt=""
                         />
                         <div class="profile-info">
-                          <h6>Madley Pondor</h6>
-                          <span>/IT Specialist</span>
+                          <h6>Matt Jeorge</h6>
+                          <span>/IT Director</span>
                         </div>
                       </div>
                     </div>
@@ -166,7 +166,8 @@ section {
     justify-content: start;
     align-items: center;
     width: 40%;
-    padding-right: 60px;
+    margin-right: 80px;
+    padding-right: 50px;
     h2 {
       font-size: 50px;
     }

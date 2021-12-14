@@ -6,6 +6,7 @@
       <UpgradeLife/>
       <OnlineCourses/>
       <People/>
+      <Transform/>
     </div>
   </main>
 </template>
@@ -16,6 +17,7 @@ import WorkCulture from './WorkCultureSection.vue';
 import UpgradeLife from './UpgradeLife.vue';
 import OnlineCourses from './OnlineCourses.vue';
 import People from './People.vue';
+import Transform from './Transform.vue';
 
 export default {
   name: 'Main',
@@ -25,6 +27,7 @@ export default {
     UpgradeLife,
     OnlineCourses,
     People,
+    Transform,
   }
 }
 </script>
