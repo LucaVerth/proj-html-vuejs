@@ -1,24 +1,7 @@
 # proj-html-vuejs
 
-## Project setup
-```
-npm install
-```
+This project is DESKTOP only, thus responsive is Supported and the components structure is build for it, but isnt' enabled yet; :D 
+// Responsive need a few fixes in order to work properly.
+The entire website is locked at width 1750px; 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ENJOY!  :)
