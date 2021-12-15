@@ -31,21 +31,27 @@
             <div class="left-links">
               <h5 class="fw-bold">Explore</h5>
               <div class="links-container mt-2">
-                <div class="item"><a href="#">Start Here</a></div>
-                <div class="item"><a href="#">Blog</a></div>
-                <div class="item"><a href="#">About Us</a></div>
-                <div class="item"><a href="#">Success Story</a></div>
-                <div class="item"><a href="#">Courses</a></div>
-                <div class="item"><a href="#">Contact Us</a></div>
+                <!-- Different array and db data (read name) -->
+                <div
+                  v-for="(link, index) in ExploreLinks"
+                  :key="index"
+                  class="item"
+                >
+                  <a :href="link.link">{{ link.name }}</a>
+                </div>
               </div>
             </div>
             <div class="right-links ps-5">
               <h5 class="fw-bold">Information</h5>
               <div class="links-container mt-2">
-                <div class="item"><a href="#">Membership</a></div>
-                <div class="item"><a href="#">Purchase guide</a></div>
-                <div class="item"><a href="#">Privacy policy</a></div>
-                <div class="item"><a href="#">Terms of service</a></div>
+                <!-- Different array and db data (read name) -->
+                <div
+                  v-for="(link, index) in InfoLinks"
+                  :key="index"
+                  class="item"
+                >
+                  <a :href="link.link">{{ link.name }}</a>
+                </div>
               </div>
             </div>
           </div>
@@ -62,13 +68,23 @@
 </template>
 
 <script>
+// Arrays for dynamic link print
+import ExploreLinks from "../assets/data/ExploreLinks.js";
+import InfoLinks from "../assets/data/InfoLinks.js";
+
 export default {
   name: "Footer",
+  data() {
+    return {
+      ExploreLinks,
+      InfoLinks,
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Vars.scss';
+@import "../assets/style/Vars.scss";
 footer {
   height: 500px;
   background-color: #171520;
@@ -79,8 +95,8 @@ footer {
     bottom: 30px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
       0 3px 1px -2px rgba(0, 0, 0, 0.2);
-      background-color: #1fad95;
-      color: #fff;
+    background-color: #1fad95;
+    color: #fff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -89,8 +105,8 @@ footer {
     line-height: 60px;
     cursor: pointer;
   }
-  .copyright{
-    span{
+  .copyright {
+    span {
       color: $text-style;
     }
   }
@@ -120,7 +136,7 @@ footer {
     a {
       text-decoration: none;
       color: $text-style;
-      &:hover{
+      &:hover {
         color: $secondary-color;
       }
     }
@@ -145,7 +161,7 @@ footer {
           a {
             text-decoration: none;
             color: $text-style;
-            &:hover{
+            &:hover {
               color: $secondary-color;
               text-decoration: underline;
             }
@@ -166,7 +182,7 @@ footer {
           a {
             text-decoration: none;
             color: $text-style;
-            &:hover{
+            &:hover {
               color: $secondary-color;
               text-decoration: underline;
             }
