@@ -92,6 +92,7 @@ export default {
     min-height: 450px;
     border-radius: 10px;
     background-color: #fff;
+    overflow : hidden;
     .text {
       padding: 20px;
       .price-text{
@@ -101,6 +102,19 @@ export default {
       .extra-info{
         color: $dark-grey-style;
       }
+      h5{
+        line-height: 30px;
+        &:hover{
+          color: $secondary-color;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
+    .course-image 
+    img:hover{
+      transform: scale(1.1);
+      transition: all 0.7s ease-out;
     }
   }
 }
