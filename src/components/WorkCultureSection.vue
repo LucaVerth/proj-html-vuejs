@@ -17,7 +17,7 @@
                 officia corporis laudantium maiores impedit eum ipsa. Eligendi.
               </p>
               <span
-                >Have questions? <a href="#">Get Free Guide &#8594;</a>
+                >Have questions? <a class="work-link" href="#">Get Free Guide &#8594;</a>
               </span>
             </div>
           </div>
@@ -89,7 +89,11 @@ section {
     min-height: 500px;
     .work{
       color: $secondary-color;
-      font-weight: 100;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .work-link{
+      color: $secondary-color;
     }
     h2 {
       font-size: 50px;
@@ -139,10 +143,12 @@ section {
     margin: 0 -100px;
     font-size: 2.3rem;
     font-weight: bold;
+    color: $secondary-color;
     span {
       padding-top: 10px;
       font-size: 1rem;
       font-weight: normal;
+      color: $primary-color;
     }
   }
 }

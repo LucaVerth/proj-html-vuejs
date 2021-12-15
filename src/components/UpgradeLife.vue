@@ -34,7 +34,7 @@
             <div>
               <span class="slogan text-uppercase">how we work</span>
               <h2 class="my-3">
-                Upgrade Your Skills<span class="fw-light">
+                Upgrade Your Skills<span class="upgrade">
                   Upgrade Your Life</span
                 >
               </h2>
@@ -44,7 +44,7 @@
                 voluptates repudiandae, ea, explicabo cupiditate! Dolore,
                 officia corporis laudantium maiores impedit eum ipsa. Eligendi.
               </p>
-              <span><a href="#">Download free guidebook &#8594;</a> </span>
+              <span><a class="upgrade-link" href="#">Download free guidebook &#8594;</a> </span>
             </div>
           </div>
         </div>
@@ -60,6 +60,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section{
   margin-bottom: 100px;
 }
@@ -72,6 +73,14 @@ section{
     align-items: center;
     width: 30%;
     min-height: 500px;
+    .upgrade{
+      color: $secondary-color;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .upgrade-link{
+      color: $primary-color;
+    }
     h2 {
       font-size: 50px;
     }

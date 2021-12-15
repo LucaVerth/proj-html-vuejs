@@ -34,7 +34,7 @@
             <div>
               <span class="slogan text-uppercase">everything in maxcoach</span>
               <h2 class="my-3">
-                We're Here to<span class="fw-light"> Transform</span> You!
+                We're Here to<span class="transform"> Transform</span> You!
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -42,7 +42,7 @@
                 voluptates repudiandae, ea, explicabo cupiditate! Dolore,
                 officia corporis laudantium maiores impedit eum ipsa. Eligendi.
               </p>
-              <a class="btn btn-success mt-4" href="#">Get Free Guide</a>
+              <a class="btn custom-btn mt-4" href="#">Get Free Guide</a>
             </div>
           </div>
         </div>
@@ -58,6 +58,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section {
   background-color: #ffff;
   padding-bottom: 100px;
@@ -71,8 +72,26 @@ section {
     align-items: center;
     width: 30%;
     min-height: 500px;
+    .transform{
+      color: $secondary-color;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
     h2 {
       font-size: 50px;
+    }
+    p{
+      color: $text-style;
+    }
+    .custom-btn{
+      background-color: $secondary-color;
+      color: #ffff;
+      padding: 10px 35px;
+      transition: all 0.2s ease-in-out;
+      &:hover{
+        background-color: $grey-style;
+        color: $secondary-color;
+      }
     }
   }
   .image-mosaic {

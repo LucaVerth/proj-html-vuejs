@@ -20,7 +20,7 @@
             <div>
               <span class="slogan text-uppercase">testimonials</span>
               <h2 class="my-3">
-                Why Do People <span class="fw-light">*Hearts*</span> Us?
+                Why Do People <span class="hearts">*Hearts*</span> Us?
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -28,7 +28,7 @@
                 voluptates repudiandae, ea, explicabo cupiditate! Dolore,
                 officia corporis laudantium maiores impedit eum ipsa. Eligendi.
               </p>
-              <span><a href="#">View all &#8594;</a> </span>
+              <span><a class="link" href="#">View all &#8594;</a> </span>
             </div>
           </div>
           <div class="image-carousel">
@@ -134,6 +134,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section {
   position: relative;
   background-color: #ffff;
@@ -154,7 +155,7 @@ section {
     height: 80px;
   }
   .custom-shape-divider-top-1639503039 .shape-fill {
-    fill: #e2e2e0;
+    fill: $grey-style;
   }
 }
 .top-half {
@@ -168,8 +169,19 @@ section {
     width: 40%;
     margin-right: 80px;
     padding-right: 50px;
+    .hearts{
+      color: $secondary-color;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .link{
+      color: $primary-color;
+    }
     h2 {
       font-size: 50px;
+    }
+    p{
+      color: $text-style;
     }
   }
   .image-carousel {
@@ -190,6 +202,9 @@ section {
         .text {
           padding: 40px;
           position: relative;
+        }
+        p{
+          color: $text-style;
         }
       }
       // carousel cards items
@@ -223,6 +238,11 @@ section {
           height: 70px;
           border-radius: 50%;
           margin-right: 20px;
+        }
+        .profile-info{
+          span{
+            color: $text-style;
+          }
         }
       }
     }
