@@ -73,6 +73,9 @@ header {
     }
     .custom_link{
       padding: 0 0.6rem;
+      &:hover{
+        color: $secondary-color;
+      }
     }
     .nav-bar ul li a {
       color: $primary-color;
@@ -105,7 +108,11 @@ header {
         text-decoration: none;
         i {
           cursor: pointer;
+          font-size: 1.3rem;
           color: $dark-grey-style;
+          &:hover{
+            color: $secondary-color;
+          }
         }
       }
     }
