@@ -106,6 +106,10 @@ section{
       border-radius: 5px;
       z-index: 3;
       cursor: pointer;
+      &:hover{
+        box-shadow: 3px 3px 15px;
+        transition: all 0.5s ease-out;
+      }
     }
     .image2 {
       position: absolute;
