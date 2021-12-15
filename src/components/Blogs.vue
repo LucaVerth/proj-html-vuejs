@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 text-center blogs">
           <span class="text-uppercase">read for more joyment</span>
-          <h2>Latest From <span>Our Blogs</span></h2>
+          <h2>Latest From <span class="blog">Our Blogs</span></h2>
         </div>
         <div class="col-12">
           <div class="">
@@ -22,7 +22,7 @@
                   />
                 </a>
                 <div class="text">
-                  <span>{{ post.type.toUpperCase() }}</span>
+                  <span class="post-type">{{ post.type.toUpperCase() }}</span>
                   <h5 class="mt-3">{{ post.title }}</h5>
                   <div class="extra-info mt-4">
                     <span class="me-3">
@@ -57,6 +57,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section{
   padding-top: 80px;
   margin-bottom: 100px;
@@ -66,6 +67,11 @@ section{
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 60px;
+  }
+  .blog{
+    color: $secondary-color;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
   }
 }
 .main-carousel {
@@ -77,7 +83,16 @@ section{
     border-radius: 10px;
     background-color: transparent;
     .text {
-      padding: 20px;
+      padding: 20px 0;
+      .post-type{
+        color: $dark-grey-style;
+      }
+      .extra-info{
+        color: $dark-grey-style;
+      }
+    }
+    h5{
+      line-height: 35px;
     }
   }
 }

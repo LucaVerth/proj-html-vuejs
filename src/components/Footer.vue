@@ -68,6 +68,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 footer {
   height: 500px;
   background-color: #171520;
@@ -88,6 +89,11 @@ footer {
     line-height: 60px;
     cursor: pointer;
   }
+  .copyright{
+    span{
+      color: $text-style;
+    }
+  }
 }
 .footer_custom {
   display: flex;
@@ -99,20 +105,24 @@ footer {
   .address ul {
     list-style-type: none;
     padding: 10px 0;
-    & li {
+    li {
       padding: 10px 0;
+      color: $text-style;
     }
   }
   .social-links {
     width: 35%;
     display: flex;
     justify-content: space-between;
-    & i {
+    i {
       font-size: 1.8rem;
     }
     a {
       text-decoration: none;
-      color: #fff;
+      color: $text-style;
+      &:hover{
+        color: $secondary-color;
+      }
     }
   }
   .links {
@@ -134,7 +144,11 @@ footer {
           padding: 8px 0;
           a {
             text-decoration: none;
-            color: #fff;
+            color: $text-style;
+            &:hover{
+              color: $secondary-color;
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -151,7 +165,11 @@ footer {
           padding: 8px 0;
           a {
             text-decoration: none;
-            color: #fff;
+            color: $text-style;
+            &:hover{
+              color: $secondary-color;
+              text-decoration: underline;
+            }
           }
         }
       }

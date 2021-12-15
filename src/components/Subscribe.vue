@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 main-section">
           <div class="Subscribe">
-            <h4>Subscribe Newsletters</h4>
+            <h4>Subscribe <span class="sub-email">Newsletters</span></h4>
             <p>
               Enter your email address to register to our newsletter
               subscription delivered on a regular basis!
@@ -16,7 +16,7 @@
                 placeholder="Enter your email!"
               />
               <button
-                class="btn btn-success"
+                class="btn custom-btn"
                 type="button"
               >
                 Subscribe
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section {
   padding: 80px 0;
   background-color: #ffff;
@@ -66,10 +67,26 @@ section {
     p {
       padding-top: 15px;
     }
+    .sub-email{
+      color: $secondary-color;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
     .search_bar{
       input,
       button {
         padding: 0.8rem;
+        background-color: $grey-style;
+        border: none;
+      }
+      .custom-btn{
+        background-color: $secondary-color;
+        color: #ffff;
+        border-left: 1px solid $secondary-color;
+        &:hover{
+          background-color: $grey-style;
+          color: $secondary-color;
+        }
       }
     }
     .image1 {

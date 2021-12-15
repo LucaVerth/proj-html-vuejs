@@ -18,7 +18,7 @@ export default [
   {
     image: 'artist-blog-02-480x325.jpg',
     type: 'artist',
-    title: 'Connection Between SElf-Portraits and Identity',
+    title: 'Connection Between Self-Portraits and Identity',
     date: 'May 15, 2020',
     views: 397,
 
