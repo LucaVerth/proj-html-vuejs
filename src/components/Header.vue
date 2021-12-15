@@ -4,9 +4,13 @@
       <div class="row custom_row">
         <nav class="col nav-bar">
           <ul class="nav">
-            <li class="nav-item ms-2" v-for="(link, index) in linksHeader" :key="index">
+            <li
+              class="nav-item ms-2"
+              v-for="(link, index) in linksHeader"
+              :key="index"
+            >
               <a class="nav-link custom_link" :href="link.link"
-                >{{link.title}}
+                >{{ link.title }}
                 <i class="fas fa-chevron-down"></i>
               </a>
             </li>
@@ -16,7 +20,11 @@
           <img class :src="require('../assets/images/dark-logo.png')" alt="" />
         </figure>
         <div class="col search-bar">
-          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#">
+            <i class="fas fa-shopping-cart cart">
+              <div class="cart-counter">0</div>
+            </i>
+          </a>
           <a href="#"><i class="far fa-user-circle mx-2"></i></a>
           <div class="input-group custom_search_bar">
             <input type="text" class="custom_search" placeholder="Search..." />
@@ -31,20 +39,20 @@
 </template>
 
 <script>
-import linksHeader from '../assets/data/LinksHeader.js';
+import linksHeader from "../assets/data/LinksHeader.js";
 
 export default {
   name: "Header",
-  data(){
+  data() {
     return {
-      linksHeader, 
-    }
-  }
+      linksHeader,
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Vars.scss';
+@import "../assets/style/Vars.scss";
 
 header {
   width: 100%;
@@ -71,16 +79,16 @@ header {
         padding: 0.5em;
       }
     }
-    .custom_link{
+    .custom_link {
       padding: 0 0.6rem;
-      &:hover{
+      &:hover {
         color: $secondary-color;
       }
     }
     .nav-bar ul li a {
       color: $primary-color;
       font-size: 1rem;
-      i{
+      i {
         font-size: 0.6rem;
         line-height: 40px;
       }
@@ -89,6 +97,23 @@ header {
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      .cart{
+        position: relative;
+        .cart-counter{
+          position: absolute;
+          top: -16px;
+          right: -14px;
+          background-color: $secondary-color;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+        }
+      }
       .custom_search_bar {
         width: unset;
       }
@@ -110,7 +135,7 @@ header {
           cursor: pointer;
           font-size: 1.3rem;
           color: $dark-grey-style;
-          &:hover{
+          &:hover {
             color: $secondary-color;
           }
         }
