@@ -7,7 +7,7 @@
             <div>
               <span class="slogan text-uppercase">everything in maxcoach</span>
               <h2 class="my-3">
-                Learn about our <span class="fw-light">Work Culture</span> at
+                Learn about our <span class="work">Work Culture</span> at
                 MaxCoach
               </h2>
               <p>
@@ -73,6 +73,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
 section {
   margin-bottom: 110px;
 }
@@ -86,6 +87,10 @@ section {
     align-items: center;
     width: 40%;
     min-height: 500px;
+    .work{
+      color: $secondary-color;
+      font-weight: 100;
+    }
     h2 {
       font-size: 50px;
     }

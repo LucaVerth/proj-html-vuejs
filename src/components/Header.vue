@@ -4,7 +4,7 @@
       <div class="row custom_row">
         <nav class="col nav-bar">
           <ul class="nav">
-            <li class="nav-item" v-for="(link, index) in linksHeader" :key="index">
+            <li class="nav-item ms-2" v-for="(link, index) in linksHeader" :key="index">
               <a class="nav-link custom_link" :href="link.link"
                 >{{link.title}}
                 <i class="fas fa-chevron-down"></i>
@@ -44,6 +44,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
+
 header {
   width: 100%;
   height: 80px;
@@ -72,9 +74,13 @@ header {
     .custom_link{
       padding: 0 0.6rem;
     }
-    .nav-bar ul li a i {
-      font-size: 0.8rem;
-      line-height: 40px;
+    .nav-bar ul li a {
+      color: $primary-color;
+      font-size: 1rem;
+      i{
+        font-size: 0.6rem;
+        line-height: 40px;
+      }
     }
     .search-bar {
       display: flex;
@@ -86,18 +92,20 @@ header {
       .custom_search {
         width: 250px;
         padding: 10px;
-        background-color: #e2e2e0;
+        background-color: $grey-style;
         border-radius: 5px;
         border: 1px solid transparent;
       }
       .custom_btn {
-        background-color: #e2e2e0;
+        background-color: $grey-style;
+        color: $secondary-color;
       }
       a {
         margin: 0.5em;
         text-decoration: none;
         i {
           cursor: pointer;
+          color: $dark-grey-style;
         }
       }
     }

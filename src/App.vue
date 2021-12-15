@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 @import './assets/style/Generals.scss';
+@import './assets/style/Vars.scss';
 
 .main-wrapper{
   width: 100%;

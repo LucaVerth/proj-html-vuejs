@@ -8,7 +8,7 @@
       <div class="jumbotron-center-section">
         <h3 class="fw-bold">Commence Business</h3>
         <h1>Distant Mentoring Program</h1>
-        <a class="btn btn-light px-4 py-2 mt-4" href="#" role="button"
+        <a class="btn btn-custom mt-4" href="#" role="button"
           >Download free guidebook &#8594;
         </a>
       </div>
@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/style/Vars.scss';
+
 .jumbotron {
   margin: unset;
   padding: unset;
@@ -47,6 +49,16 @@ export default {
       width: 40%;
       height: 300px;
       color: #ffff;
+      .btn-custom{
+        padding: 13px 40px;
+        background-color: #ffff;
+        color: $secondary-color;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+          background-color: $secondary-color;
+          color: #ffff;
+        }
+      }
       h1{
         font-size: 50px;
       }
