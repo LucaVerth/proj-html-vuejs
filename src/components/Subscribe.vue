@@ -22,6 +22,16 @@
                 Subscribe
               </button>
             </div>
+            <img
+              class="image1"
+              :src="require('../assets/images/maxcoach-shape-08.png')"
+              alt=""
+            />
+            <img
+              class="image2"
+              :src="require('../assets/images/maxcoach-shape-02.png')"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -44,14 +54,12 @@ section {
   display: flex;
   justify-content: center;
   position: relative;
-  background-color: green;
   .Subscribe {
     width: 45%;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: red;
     h4 {
       font-size: 50px;
     }
@@ -63,6 +71,24 @@ section {
       button {
         padding: 0.8rem;
       }
+    }
+    .image1 {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 0px;
+      right: 65px;
+      border-radius: 5px;
+      z-index: 1;
+      transform: rotate(30deg)
+    }
+    .image2 {
+      position: absolute;
+      bottom: 40px;
+      right: 5%;
+      border-radius: 5px;
+      z-index: 2;
+      transform: rotate(10deg)
     }
   }
 }
