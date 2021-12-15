@@ -22,7 +22,7 @@
                   />
                 </a>
                 <div class="text">
-                  <span class="price-text">${{card.price.toFixed(2)}}</span>
+                  <span class="price-text">${{ card.price.toFixed(2) }}</span>
                   <h5 class="mt-3">{{ card.title }}</h5>
                   <div class="extra-info mt-4">
                     <span class="me-3">
@@ -49,7 +49,8 @@
         <div class="col-6 offset-3 text-center courses-link mt-4">
           <p>
             Control your personal preferences settings to get notified about
-            appropriate courses. <a class="link" href="#">View all courses &#8594;</a>
+            appropriate courses.
+            <a class="link" href="#">View all courses &#8594;</a>
           </p>
         </div>
       </div>
@@ -71,11 +72,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Vars.scss';
+@import "../assets/style/Vars.scss";
 .courses {
-  .courses-text{
+  .courses-text {
     color: $secondary-color;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
   }
   h2 {
@@ -92,27 +93,30 @@ export default {
     min-height: 450px;
     border-radius: 10px;
     background-color: #fff;
-    overflow : hidden;
+    overflow: hidden;
+    &:hover{
+      box-shadow: 3px 3px 15px;
+      transition: all 0.3s ease-out;
+    }
     .text {
       padding: 20px;
-      .price-text{
+      .price-text {
         color: $secondary-color;
         font-size: 1.5rem;
       }
-      .extra-info{
+      .extra-info {
         color: $dark-grey-style;
       }
-      h5{
+      h5 {
         line-height: 30px;
-        &:hover{
+        &:hover {
           color: $secondary-color;
           transition: all 0.3s ease-in-out;
           cursor: pointer;
         }
       }
     }
-    .course-image 
-    img:hover{
+    .course-image img:hover {
       transform: scale(1.1);
       transition: all 0.7s ease-out;
     }
@@ -140,8 +144,12 @@ export default {
     font-size: 1.2rem;
     color: $text-style;
   }
-  .link{
+  .link {
     color: $primary-color;
+    &:hover {
+      color: $secondary-color;
+      transition: color 0.3s ease-out;
+    }
   }
 }
 </style>
