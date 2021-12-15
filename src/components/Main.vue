@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss">
-main{
-  height: calc(100vh - 80px);
+.main-container {
+  height: calc(100% - 630px);
 }
 </style>
