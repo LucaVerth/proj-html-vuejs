@@ -147,7 +147,7 @@ section {
   margin-bottom: 60px;
   .text-side {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     width: 40%;
     margin-right: 80px;
