@@ -27,7 +27,31 @@
               </a>
             </div>
           </div>
-          <div class="links">LINKS</div>
+          <div class="links">
+            <div class="left-links">
+              <h5 class="fw-bold">Explore</h5>
+              <div class="links-container mt-2">
+                <div class="item"><a href="#">Start Here</a></div>
+                <div class="item"><a href="#">Blog</a></div>
+                <div class="item"><a href="#">About Us</a></div>
+                <div class="item"><a href="#">Success Story</a></div>
+                <div class="item"><a href="#">Courses</a></div>
+                <div class="item"><a href="#">Contact Us</a></div>
+              </div>
+            </div>
+            <div class="right-links ps-5">
+              <h5 class="fw-bold">Information</h5>
+              <div class="links-container mt-2">
+                <div class="item"><a href="#">Membership</a></div>
+                <div class="item"><a href="#">Purchase guide</a></div>
+                <div class="item"><a href="#">Privacy policy</a></div>
+                <div class="item"><a href="#">Terms of service</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-light copyright d-flex justify-content-center">
+          <span>&copy; 2020 Maxcoach. All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -42,7 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  height: 550px;
+  height: 500px;
   background-color: #171520;
 }
 .footer_custom {
@@ -66,7 +90,7 @@ footer {
     & i {
       font-size: 1.8rem;
     }
-    a{
+    a {
       text-decoration: none;
       color: #fff;
     }
@@ -74,6 +98,44 @@ footer {
   .links {
     width: 50%;
     padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    .left-links {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      .links-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-height: 50%;
+        div {
+          width: 50%;
+          padding: 8px 0;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .right-links {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      .links-container{
+        display: flex;
+        flex-direction: column;
+        div {
+          width: 50%;
+          padding: 8px 0;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
   }
 }
 </style>

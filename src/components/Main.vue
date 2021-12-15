@@ -40,6 +40,6 @@ export default {
 
 <style lang="scss">
 .main-container {
-  height: calc(100% - 630px);
+  height: calc(100% - 580px);
 }
 </style>
