@@ -32,6 +32,11 @@
               :src="require('../assets/images/maxcoach-shape-02.png')"
               alt=""
             />
+            <img
+              class="image3"
+              :src="require('../assets/images/circle.png')"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -107,6 +112,16 @@ section {
       border-radius: 5px;
       z-index: 2;
       transform: rotate(10deg)
+    }
+    .image3{
+      position: absolute;
+      top: 40%;
+      left: -3%;
+      border-radius: 5px;
+      z-index: 3;
+      width: 60px;
+      opacity: 0.6;
+      filter: invert(48%) sepia(77%) saturate(368%) hue-rotate(121deg) brightness(101%) contrast(88%);
     }
   }
 }

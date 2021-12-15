@@ -42,6 +42,11 @@
               :src="require('../assets/images/maxcoach-shape-02.png')"
               alt=""
             />
+            <img
+              class="image5"
+              :src="require('../assets/images/circle.png')"
+              alt=""
+            />
           </div>
         </div>
         <div class="col-12 bottom-half">
@@ -130,6 +135,15 @@ section {
       right: 20%;
       border-radius: 5px;
       z-index: 4;
+    }
+    .image5{
+      position: absolute;
+      top: 50px;
+      left: -20px;
+      border-radius: 5px;
+      z-index: 3;
+      width: 50px;
+      opacity: 0.7;
     }
   }
 }

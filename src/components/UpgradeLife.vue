@@ -29,6 +29,11 @@
               :src="require('../assets/images/icon-youtube-play.png')"
               alt=""
             />
+            <img
+              class="image6"
+              :src="require('../assets/images/circle.png')"
+              alt=""
+            />
           </div>
           <div class="text-side">
             <div>
@@ -96,6 +101,7 @@ section{
       transform: translate(0, -50%);
       border-radius: 5px;
       z-index: 3;
+      cursor: pointer;
     }
     .image2 {
       position: absolute;
@@ -120,6 +126,16 @@ section{
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 4;
+      cursor: pointer;
+    }
+    .image6{
+      position: absolute;
+      top: -30px;
+      right: -28%;
+      border-radius: 5px;
+      z-index: 3;
+      width: 50px;
+      opacity: 0.7;
     }
   }
 }

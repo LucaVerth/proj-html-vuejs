@@ -29,6 +29,11 @@
               :src="require('../assets/images/maxcoach-shape-01.png')"
               alt=""
             />
+            <img
+              class="image6"
+              :src="require('../assets/images/circle.png')"
+              alt=""
+            />
           </div>
           <div class="text-side">
             <div>
@@ -127,6 +132,15 @@ section {
       bottom: 5%;
       left: -150px;
       z-index: 4;
+    }
+    .image6{
+      position: absolute;
+      top: -30px;
+      right: -23%;
+      border-radius: 5px;
+      z-index: 3;
+      width: 50px;
+      opacity: 0.7;
     }
   }
 }
