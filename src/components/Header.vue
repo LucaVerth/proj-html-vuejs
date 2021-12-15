@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header id="head" class="header">
     <div class="container-fluid custom_container">
       <div class="row custom_row">
         <nav class="col nav-bar">

@@ -55,6 +55,9 @@
         </div>
       </div>
     </div>
+    <a class="top-page-button" href="#head">
+      <i class="fas fa-arrow-up"></i>
+    </a>
   </footer>
 </template>
 
@@ -68,6 +71,23 @@ export default {
 footer {
   height: 500px;
   background-color: #171520;
+  position: relative;
+  .top-page-button {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      background-color: #1fad95;
+      color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    cursor: pointer;
+  }
 }
 .footer_custom {
   display: flex;
@@ -123,7 +143,7 @@ footer {
       width: 50%;
       display: flex;
       flex-direction: column;
-      .links-container{
+      .links-container {
         display: flex;
         flex-direction: column;
         div {
