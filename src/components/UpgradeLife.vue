@@ -39,10 +39,7 @@
                 >
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                dolor tempore odit mollitia ducimus exercitationem illo
-                voluptates repudiandae, ea, explicabo cupiditate! Dolore,
-                officia corporis laudantium maiores impedit eum ipsa. Eligendi.
+                Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets of insights into your career. MaxCoach accompany learners in every stage of learning.
               </p>
               <span><a class="upgrade-link" href="#">Download free guidebook &#8594;</a> </span>
             </div>
@@ -83,6 +80,9 @@ section{
     }
     h2 {
       font-size: 50px;
+    }
+    p{
+      color: $text-style;
     }
   }
   .image-mosaic {

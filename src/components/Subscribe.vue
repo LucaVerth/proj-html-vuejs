@@ -66,6 +66,7 @@ section {
     }
     p {
       padding-top: 15px;
+      color: $text-style;
     }
     .sub-email{
       color: $secondary-color;

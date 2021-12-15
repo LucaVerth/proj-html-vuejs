@@ -37,10 +37,7 @@
                 We're Here to<span class="transform"> Transform</span> You!
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                dolor tempore odit mollitia ducimus exercitationem illo
-                voluptates repudiandae, ea, explicabo cupiditate! Dolore,
-                officia corporis laudantium maiores impedit eum ipsa. Eligendi.
+                As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best.
               </p>
               <a class="btn custom-btn mt-4" href="#">Get Free Guide</a>
             </div>

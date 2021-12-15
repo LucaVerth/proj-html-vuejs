@@ -23,10 +23,7 @@
                 Why Do People <span class="hearts">*Hearts*</span> Us?
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                dolor tempore odit mollitia ducimus exercitationem illo
-                voluptates repudiandae, ea, explicabo cupiditate! Dolore,
-                officia corporis laudantium maiores impedit eum ipsa. Eligendi.
+                Seeking for verbals of our service quality? Find them here. Everything is transparent and straightforward for your sense of jusitifcation.
               </p>
               <span><a class="link" href="#">View all &#8594;</a> </span>
             </div>
@@ -42,11 +39,7 @@
                     </h4>
                     <div class="inner-content">
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
-                        officia rem asperiores possimus similique ipsa. Illum
-                        exercitationem eaque dicta, quae soluta nulla culpa
-                        veniam?
+                       I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.	
                       </p>
                       <div class="profile mt-4">
                         <img
@@ -65,16 +58,11 @@
                 <div class="card-item item2">
                   <div class="text">
                     <h4 class="mb-3">
-                      Professional Team of specialists and passionate mentors at
-                      reach
+                      High level of efficiency and scientific teaching methods
                     </h4>
                     <div class="inner-content">
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
-                        officia rem asperiores possimus similique ipsa. Illum
-                        exercitationem eaque dicta, quae soluta nulla culpa
-                        veniam?
+                        I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.
                       </p>
                       <div class="profile mt-4">
                         <img
@@ -93,16 +81,11 @@
                 <div class="card-item item3">
                   <div class="text">
                     <h4 class="mb-3">
-                      Professional Team of specialists and passionate mentors at
-                      reach
+                      The MaxCoach team works really hard to ensure high level of quality
                     </h4>
                     <div class="inner-content">
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci, laborum! Quam, rerum eos vitae voluptatem
-                        officia rem asperiores possimus similique ipsa. Illum
-                        exercitationem eaque dicta, quae soluta nulla culpa
-                        veniam?
+                       I am happy with their arrangement of lessons and subjects. They reflect a scientific  investigation into effective methods to adopt.	
                       </p>
                       <div class="profile mt-4">
                         <img

@@ -11,10 +11,7 @@
                 MaxCoach
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                dolor tempore odit mollitia ducimus exercitationem illo
-                voluptates repudiandae, ea, explicabo cupiditate! Dolore,
-                officia corporis laudantium maiores impedit eum ipsa. Eligendi.
+                Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classes every beginning of each month.
               </p>
               <span
                 >Have questions? <a class="work-link" href="#">Get Free Guide &#8594;</a>
@@ -97,6 +94,9 @@ section {
     }
     h2 {
       font-size: 50px;
+    }
+    p{
+      color: $text-style;
     }
   }
   .image-mosaic {
