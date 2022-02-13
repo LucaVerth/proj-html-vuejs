@@ -1,6 +1,7 @@
 # proj-html-vuejs
 
-This project is DESKTOP only, thus responsive is Supported and the components structure is build for it.
+This project is DESKTOP only. 
+Responsive is Supported and the components structure was build keeping that in mind. 
 
 ## Final Result 
 
